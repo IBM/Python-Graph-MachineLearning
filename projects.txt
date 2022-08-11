@@ -1,0 +1,83 @@
+About me:-
+I started working as a full stack sd in eclerx and was working in C# .NET SQL, javascript angular. 
+Some of the projects I worked on were Recruitment portal and Inventory management.
+
+Recruitment portal:-
+start to end process from recruiter to offer generation. 
+Interview rounds.
+
+Inventory management:-
+Devices which users use such as laptops chairs etcs. 
+
+I came to US for further studies and one course I liked the most was deep learning and machine learning. 
+I created some personal projects using CNN for image detection and stock market predictions. Worked on a robot freenova to detect face and move head.
+
+IBM:-
+I started working as an intern and technologies I used were angular javascript for reading alerts and SQL for querying database.
+After I joined full time, my focus was learning big data technologies because they integrated closely with Machine learning use case. 
+My big data analytics course helped my understanding and the technologies I can use. 
+
+Right now I am working on network data which IBM gets from all around the globe. I use Apache streamsets to process files and
+store it into nosql database such as mongo solr hdfs.
+I use python and scala to generate reports using apache spark which is then consumed by the UI.
+Some of the projects I worked on here was subnet utilization, seven Signal, NetCLient.
+
+
+Subnet utilization:-
+It looks for subnets which have utilization greater than 80% in 24 hour window. This helped the client to identify subnets which needs attention, 
+there might be a conference or an attack or maybe other nodes might be down. If the subnet utilization drops, then it can be DOS attack. It also looks for the pattern of subnets
+and classifies it as sporadic or new.
+
+Some of the use cases:-
+1 Implemented average utilization field which looked for historic data for the subnet and shows the percent change in utilization.
+2 Identified the pattern in the subnet utilization which helped us to categorize the subnet as new,  contiinuous or sporadic
+3 Split the report across different geo which helped us to parallely run the report and get latest data every 4 hours.
+4 Implemented geosummary feature in the report which looks for normal/high utilization of wired/wifi/IIW subnets and display them in pie chart to get high level view
+5 Created and maintained a collection to identify subnets which are ignored/priority or in progress and manage them in the UI.
+6 Generated subnet trend alerting realtime feature which sends a slack notification if the utilization of a subnet exceeds 2x or its normal value and greater than threshold.
+7 Generated subnet instant alerting realtime feature which helps to track priority subnets and send a slack notification if the utilization exceeds 75% at any given point of time.
+
+sevenSignal:-
+This report looks out for sensors and their accesspoint information. On device can have many access points and one access points can generate multiple alerts.
+
+Some of the use cases:-
+The dashboard produces alerts based on certain thresholds which help us indicate areas that need wifi support. The alerts range from HTTP Throughput to DHCP Success Rate. 
+The dashboard also helps indicate whether or not a specific eye(sensor) is down which can lead to inaccurate data.
+It also helps with Organization of alerts and down eyes. The ability to search through a list of alerts based off area name, MAC address, name of AP/EYE and alert name helps us analyze
+where and why problems are occurring.
+Organization is also improved with the dashboard.
+Its hard to keep track of historical data which can show us trends so having the dashboard with time intervals helps the team see trends that are happening and can analyze why it is happening.
+Parallel processing and SQL.
+
+
+
+NSOT:-
+
+Parent Object:- 
+ID 
+IP
+Mac
+
+Authentication:-
+SasVPN
+
+Subnet:-
+BA
+
+Ownership:-
+WhoIs
+
+Location:-
+Nw communications
+
+Use case:- 
+Find Path from source to destination
+Analytics on every individual subnet to find its nearest neighbors
+graph datastructure and drill down.
+
+Analytics on top talkers.
+Parallel processing on child data and load them asynchronously
+find info between start time and end time.
+
+
+
