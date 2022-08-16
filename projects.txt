@@ -28,6 +28,7 @@ It looks for subnets which have utilization greater than 80% in 24 hour window. 
 there might be a conference or an attack or maybe other nodes might be down. If the subnet utilization drops, then it can be DOS attack. It also looks for the pattern of subnets
 and classifies it as sporadic or new.
 
+
 Some of the use cases:-
 1 Implemented average utilization field which looked for historic data for the subnet and shows the percent change in utilization.
 2 Identified the pattern in the subnet utilization which helped us to categorize the subnet as new,  contiinuous or sporadic
@@ -49,7 +50,11 @@ Organization is also improved with the dashboard.
 Its hard to keep track of historical data which can show us trends so having the dashboard with time intervals helps the team see trends that are happening and can analyze why it is happening.
 Parallel processing and SQL.
 
-
+NetClient:-
+Situation:- NetClient report to identify people using shared logins
+Task:- find people accessing from different locations
+Action:- Haversine distance formula to calculate distance, User Pattern detection, monthly data instead of daily
+Result:- more anomalies detected around 2x
 
 NSOT:-
 
@@ -81,3 +86,7 @@ find info between start time and end time.
 
 
 
+Q:-
+2. How will my performance be measured?
+4. What are the biggest challenges facing the team right now?
+5. What technology is the company currently using?
