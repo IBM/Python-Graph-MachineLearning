@@ -1,15 +1,13 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
+        s = ''.join(x.lower() for x in s if x.isalnum())
+        
         l, r = 0, len(s) - 1
         while l < r:
-            while l < r and not self.alphanum(s[l]):
-                l += 1
-            while l < r and not self.alphanum(s[r]):
-                r -= 1
-            if s[l].lower() != s[r].lower():
+            if s[l] != s[r]:
                 return False
-            l += 1
-            r -= 1
+            l+=1
+            r-=1
         return True
 
     # Could write own alpha-numeric function
@@ -19,3 +17,12 @@ class Solution:
             or ord("a") <= ord(c) <= ord("z")
             or ord("0") <= ord(c) <= ord("9")
         )
+    
+"""
+Steps:-
+check if alnum and change to lower
+set left and right pointer
+if left != right then return false 
+else increment l and decrement r
+
+"""

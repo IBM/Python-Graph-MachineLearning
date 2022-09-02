@@ -18,3 +18,10 @@ class Solution:
                     q.append(node.right)
 
         return root
+
+"""
+Steps:-
+add root to queue
+if its last node in q then add to q
+
+"""

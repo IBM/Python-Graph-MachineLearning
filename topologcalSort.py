@@ -41,3 +41,14 @@ class Solution:
         
 s = Solution()
 print(s.findOrder(4,[[1,0],[2,0],[3,1],[3,2]]))
+
+"""
+#steps:-
+create dic for values and outer degree
+
+find all courses with outer degree 0 ie no dependancies and ad to queue
+pop values from queue and add to ans array.
+check for all the courses dependant on this one and decrement their outer degree
+if outer degree 0 add to queue
+
+"""

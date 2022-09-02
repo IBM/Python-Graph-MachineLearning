@@ -51,3 +51,13 @@ def findWords(board,words):
 # ["oath","pea","eat","rain"]
 
 findWords([["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]],["oath","pea","eat","rain"])
+
+"""
+Create trie node
+dfs every cell value
+if i == len(word) return true
+check for overflow conditions or if letter in word not in board or already visited, return false
+else check in children, add to path and do dfs for top bottom left right with or condition, increment i
+after completion remove that char from path
+return result
+"""

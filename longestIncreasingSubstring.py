@@ -42,3 +42,19 @@ class Solution:
             charSet.add(s[r])
             res = max(res, r - l + 1)
         return res
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        dic = {}
+        
+        longestSubstring = 0
+        for i,v in enumerate(s):
+            if v in dic:
+                longestSubstring = max(i-dic[v],longestSubstring)
+            dic[v] = i
+        print(longestSubstring)
+        return longestSubstring
+
+s = Solution()
+#s.lengthOfLongestSubstring("abcabcbb")
+s.lengthOfLongestSubstring(" ")

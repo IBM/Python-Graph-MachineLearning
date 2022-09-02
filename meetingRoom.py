@@ -19,3 +19,12 @@ class Solution:
             heapq.heappush(free_rooms, i[1])
 
         return len(free_rooms)
+
+"""
+#steps:-
+sort by start time 
+
+if starttime is greater than endtime of heap, pop from heap
+add to heap
+
+"""

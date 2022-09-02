@@ -8,3 +8,10 @@ class Solution:
                 l = r
             res = max(res, prices[r] - prices[l])
         return res
+
+"""
+Steps:-
+if price r is less than l, reset l to r
+calculate max value diff and store it in result
+
+"""

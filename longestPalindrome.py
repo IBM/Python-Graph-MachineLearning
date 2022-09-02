@@ -17,3 +17,15 @@ def helper(self, s, l, r):
     while l >= 0 and r < len(s) and s[l] == s[r]:
         l -= 1; r += 1
     return s[l+1:r]
+
+"""
+Steps:-
+Create helper function having while loop with left and right pointer and expand.
+return l+1 and r
+
+check for even and odd cases
+
+iterate each value
+
+
+"""

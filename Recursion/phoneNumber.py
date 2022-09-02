@@ -36,3 +36,12 @@ def backtrack(digits,phoneDic,combination,result):
         
     
 letterCombinations("23")
+
+"""
+Steps:-
+create dictionary for each number and their letter
+do backtrack
+    check for each digit and its char nodes and add it to combination
+    increment inoput digit and recursively call function
+
+"""
