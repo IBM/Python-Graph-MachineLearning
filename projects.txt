@@ -56,34 +56,6 @@ Task:- find people accessing from different locations
 Action:- Haversine distance formula to calculate distance, User Pattern detection, monthly data instead of daily
 Result:- more anomalies detected around 2x
 
-NSOT:-
-
-Parent Object:- 
-ID 
-IP
-Mac
-
-Authentication:-
-SasVPN
-
-Subnet:-
-BA
-
-Ownership:-
-WhoIs
-
-Location:-
-Nw communications
-
-Use case:- 
-Find Path from source to destination
-Analytics on every individual subnet to find its nearest neighbors
-graph datastructure and drill down.
-
-Analytics on top talkers.
-Parallel processing on child data and load them asynchronously
-find info between start time and end time.
-
 
 
 Q:-
