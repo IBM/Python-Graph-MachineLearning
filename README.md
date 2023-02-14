@@ -18,7 +18,7 @@ These are some of data structure concepts and problems. I have used Python as my
   
 - `backup/` Some scripts which I wrote in jupyterhub which has some of the coding problems and concepts.
 
-- `./` All the problems which were solved by mee from leetcode.
+- `Coding Problems/` All the problems which were solved by mee from leetcode.
 
 
 
