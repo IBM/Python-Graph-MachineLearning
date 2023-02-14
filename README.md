@@ -18,6 +18,8 @@ The repository provides implementations for
 
 - `Coding Problems/` All the problems which were solved by mee from leetcode.
 
+- `Machine Learning/` Some concepts about machine learning such as regression, classification, clustering algorithms and accuracy estimation of each model. 
+
 
 
 ## Python Compatibility
