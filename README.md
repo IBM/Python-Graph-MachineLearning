@@ -38,7 +38,7 @@ git clone https://github.com/IBM/Python-Graph-MachineLearning.git
 
 > If you have Miniconda or a version of Anaconda Distribution older than 4.0.0 installed, install Navigator from Anaconda Prompt, Terminal, or other command line interface by running the command `conda install anaconda-navigator`.
 
-For more information on using Navigator, see https://docs.anaconda.com/anaconda/install/index.html
+For more information on using Navigator, see https://docs.anaconda.com/navigator/index.html
 
 
 
