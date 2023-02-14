@@ -18,6 +18,8 @@ The repository provides implementations for
 
 - `Coding Problems/` All the problems which were solved by mee from leetcode.
 
+- `Machine Learning/` Some concepts about machine learning such as regression, classification, clustering algorithms and accuracy estimation of each model. 
+
 
 
 ## Python Compatibility
@@ -25,7 +27,7 @@ The content in this collection supports Python 3.6 and higher
 
 ## Installation 
 
-git clone https://github.com/IBM/DataStructures.git
+git clone https://github.com/IBM/Python-Graph-MachineLearning.git
 
 You might need Anaconda navigator for some of the scripts.
 
@@ -43,7 +45,7 @@ For more information on using Navigator, see https://docs.anaconda.com/anaconda/
 All source files must include a Copyright and License header. 
 ```text
 #
-# (c) Copyright contributors to the python Graphs and Trees project
+# (c) Copyright contributors to the Python-Graph-MachineLearning project
 #
 ```
 
