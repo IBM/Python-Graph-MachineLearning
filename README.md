@@ -27,26 +27,26 @@ The content in this collection supports Python 3.6 and higher
 
 ## Installation 
 
+- Clone the repository.
+```bash
 git clone https://github.com/IBM/Python-Graph-MachineLearning.git
+```
 
-You might need Anaconda navigator for some of the scripts.
+- You might need Anaconda navigator for some of the scripts.  
+  Installing Navigator  
+  Navigator is automatically installed when you install Anaconda Distribution version 4.0.0 or higher.
 
-Installing Navigator
-Navigator is automatically installed when you install Anaconda Distribution version 4.0.0 or higher.
+> If you have Miniconda or a version of Anaconda Distribution older than 4.0.0 installed, install Navigator from Anaconda Prompt, Terminal, or other command line interface by running the command `conda install anaconda-navigator`.
 
-If you have Miniconda or a version of Anaconda Distribution older than 4.0.0 installed, install Navigator from Anaconda Prompt, Terminal, or other command line interface by running the command conda install anaconda-navigator.
-
-For more information on using Navigator, see https://docs.anaconda.com/anaconda/install/index.html
+For more information on using Navigator, see https://docs.anaconda.com/navigator/index.html
 
 
 
 ## License
 
 All source files must include a Copyright and License header. 
-```text
-#
-# (c) Copyright contributors to the Python-Graph-MachineLearning project
-#
+```markdown
+© Copyright contributors to the Python-Graph-MachineLearning project
 ```
 
 This project is licensed under the Apache License 2.0. 
